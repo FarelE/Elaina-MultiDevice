@@ -6,7 +6,7 @@ const BodyForm = require('form-data')
 const fs = require('fs')
 const drakorasia = new (require('../lib/drakor2'))
 const y2mate = require('../lib/y2matev2')
-const { fromBuffer } = require('file-type')
+const { fromBuffer } = import('file-type')
 global.creator = `@dandisubhani_`
 
 module.exports = class Scraper {
